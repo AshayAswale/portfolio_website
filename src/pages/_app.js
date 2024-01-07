@@ -17,8 +17,17 @@ export default function App({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={`${montserrat.variable} font-mont bg-light w-full min-h-screen`}>
-        <NavBar/>
+      <main
+        className={`${montserrat.variable} font-mont bg-light w-full min-h-screen`}
+      >
+        <NavBar />
+        {/* Apologies, if you feel cringe seeing this. But other things weren't working
+         and I was short on time. I promise to fix this in near future */}
+        <br />
+        <br />
+        <br />
+        <br />
+        
         <Component {...pageProps} />
       </main>
     </>
