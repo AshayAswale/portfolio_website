@@ -29,14 +29,14 @@ const about = () => {
                     </p>
                     <p className="py-5 w-full items-center justify-center">
                     I also have research experience in Humanoid robotics, and my
-                    Master's research focused on the teleoperation of Boston
-                    Dynamics' Atlas robot via whole-body imitation. I am also a
+                    Master&apos;s research focused on the teleoperation of Boston
+                    Dynamics&apos; Atlas robot via whole-body imitation. I am also a
                     maintainer for an open-source repository, Transportable
                     Opensource UI for Generic Humanoids (TOUGH). </p>
                     <p className="py-5 w-full items-center justify-center">I
-                    was the team manager for my university's entry into NASA
+                    was the team manager for my university&apos;s entry into NASA
                     Space Robotics Challenge Phase II, and we had made it to the
-                    final round. I have also received the 'Best Paper Award' at
+                    final round. I have also received the &apos;Best Paper Award&apos; at
                     AAMAS (2022), a conference with a 24% acceptance rate
                   </p>
                 </center>
