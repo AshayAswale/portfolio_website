@@ -14,7 +14,7 @@ export default function Home() {
               <Image
                 src={scenario_gif}
                 alt="task allocation gif"
-                className="w-auto h-full"
+                className="w-full h-auto"
               />
           </div>
       </main>
