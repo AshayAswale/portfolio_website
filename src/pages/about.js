@@ -6,6 +6,9 @@ import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
 import Layout from "@/components/Layout";
 import AnimatedText from "@/components/AnimatedText";
+import Experience from "@/components/Experience";
+import Education from "@/components/Education";
+import Skills from "@/components/Skills";
 
 const about = () => {
   return (
@@ -14,8 +17,10 @@ const about = () => {
         <title>About</title>
         <meta name="description" content="Ashay Aswale's portfolio website" />
       </Head>
-      <main className="flex w-full flex-col items-center justify-center">
-        
+      <main className="flex w-full flex-col justify-center">
+        <Education/>
+        <Experience/>
+        <Skills/>
       </main>
     </>
   );

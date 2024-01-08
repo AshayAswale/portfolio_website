@@ -22,7 +22,7 @@ export default function Home() {
           />
         </div>        
         <Layout>
-          <h1 className=" justify-center text-center overflow-hidden text-6xl font-bold capitalize">About Me</h1>
+          <h1 className=" justify-center text-center overflow-hidden text-6xl font-bold capitalize">BIO</h1>
            <div className="flex flex-col w-full h-full items-center self-center justify-center --font-mont">
             <div className="grid w-full grid-cols-4 gap-16">
               <div className="col-span-3 flex flex-col items-start justify-start">
