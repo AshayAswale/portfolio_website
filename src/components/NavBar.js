@@ -25,17 +25,18 @@ const CustomLink = ({ href, title, className = "" }) => {
 
 const NavBar = () => {
   return (
-    <header className="w-full px-32 py-8 font-medium flex items-center justify-between
+    <header className="w-full px-10 py-8 font-medium flex items-center justify-between
     fixed bg-light">
       <nav>
-        <CustomLink href="/" title="Home" className="mr-4" />
-        <CustomLink href="/about" title="About" className="mx-4" />
-        <CustomLink href="/projects" title="Projects" className="mr-4" />
+        <CustomLink href="/" title="Home" className="mx-6" />
+        <CustomLink href="/about" title="About" className="mx-6" />
+        <CustomLink href="/projects" title="Projects" className="mx-6" />
         <CustomLink
           href="/publications"
-          title="Publications"
+          title="Research & Publications"
           className="ml-4"
         />
+        <CustomLink href="/contact" title="Contact Me" className="mx-6" />
       </nav>
 
       <nav className="flex items-center justify-center flex-wrap">

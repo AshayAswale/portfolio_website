@@ -20,12 +20,11 @@ export default function Home() {
             alt="task allocation gif"
             className="w-full h-auto"
           />
-        </div>
-        <div className="flex flex-col w-full h-auto items-center self-center justify-center --font-mont">
-          <h className="inline-block text-dark font-bold capitalize text-5xl py-5 ">
-            <u>BIO</u>
-          </h>
-          <div className="grid w-full grid-cols-4 gap-16">
+        </div>        
+        <Layout>
+          <h1 className=" justify-center text-center overflow-hidden text-6xl font-bold capitalize">About Me</h1>
+           <div className="flex flex-col w-full h-full items-center self-center justify-center --font-mont">
+            <div className="grid w-full grid-cols-4 gap-16">
               <div className="col-span-3 flex flex-col items-start justify-start">
                 <center>
                   <p className="py-5 w-full items-center justify-center">
@@ -33,42 +32,88 @@ export default function Home() {
                     Polytechnic Institute, working with Professor Carlo
                     Pinciroli. My current research focuses on Multi-Robot Task
                     Allocation for Heterogeneous Robots with Specific Skills.{" "}
-                    </p>
-                    <p className="py-5 w-full items-center justify-center">
+                  </p>
+                  <p className="py-5 w-full items-center justify-center">
                     I also have research experience in Humanoid robotics, and my
-                    Master&apos;s research focused on the teleoperation of Boston
-                    Dynamics&apos; Atlas robot via whole-body imitation. I am also a
-                    maintainer for an open-source repository, Transportable
-                    Opensource UI for Generic Humanoids (TOUGH). </p>
-                    <p className="py-5 w-full items-center justify-center">I
-                    was the team manager for my university&apos;s entry into NASA
-                    Space Robotics Challenge Phase II, and we had made it to the
-                    final round. I have also received the &apos;Best Paper Award&apos; at
-                    AAMAS (2022), a conference with a 24% acceptance rate
+                    Master&apos;s research focused on the teleoperation of
+                    Boston Dynamics&apos; Atlas robot via whole-body imitation.
+                    I am also a maintainer for an open-source repository,
+                    Transportable Opensource UI for Generic Humanoids (TOUGH).{" "}
+                  </p>
+                  <p className="py-5 w-full items-center justify-center">
+                    I was the team manager for my university&apos;s entry into
+                    NASA Space Robotics Challenge Phase II, and we had made it
+                    to the final round. I have also received the &apos;Best
+                    Paper Award&apos; at AAMAS (2022), a conference with a 24%
+                    acceptance rate
                   </p>
                 </center>
               </div>
-              <div className="pr-5 col-span-1">
-                <Image
-                src={profile_pic}
-              className="w-full h-auto"></Image>
-                {/* <h>Hello</h> */}
+              <div className="col-span-1 relative h-max rounded-2xl border-solid border-dark bg-light p-1">
+                <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark" />
+                <Image src={profile_pic} alt="Ashay Aswale picture" className="w-full h-auto rounded-2xl"></Image>
               </div>
-          </div>
-          <div className="flex-col items-center justify-center mt-2">
-            <Link
-              href="/AshayResume.pdf"
-              target={"_blank"}
-              className="flex items-center justify-center bg-dark text-light p-2.5 px-6 rounded-lg 
+            </div>
+            <div className="flex-col items-center justify-center mt-2">
+              <Link
+                href="/AshayResume.pdf"
+                target={"_blank"}
+                className="flex items-center justify-center bg-dark text-light p-2.5 px-6 rounded-lg 
               text-lg font-semibold hover:bg-light hover:text-dark border border-solid 
               border-transparent hover:border-dark border-2"
-            >
-              Resume
-              {/* <LinkArrow className={"w-6 ml-1"}></LinkArrow> */}
-            </Link>
-            <p>(Last updated on 07-01-2024)</p>
+              >
+                Resume
+              </Link>
+              <p>(Last updated on 07-01-2024)</p>
+            </div>
           </div>
-        </div>
+            <div className="grid w-full grid-cols-4 gap-16 pt-20">
+              <div className="">
+                
+              <Link
+                href="/about"
+                className="flex items-center justify-center bg-light text-dark p-2.5 px-6 rounded-lg 
+              text-lg font-semibold hover:bg-dark hover:text-light border border-solid 
+              border-2 border-dark border-2"
+              >
+                More About Me
+              </Link>
+              </div>
+              <div className="">
+                
+              <Link
+                href="/projects"
+                className="flex items-center justify-center bg-light text-dark p-2.5 px-6 rounded-lg 
+              text-lg font-semibold hover:bg-dark hover:text-light border border-solid 
+              border-2 border-dark border-2"
+              >
+                Projects
+              </Link>
+              </div>
+              <div className="">
+                
+              <Link
+                href="/publications"
+                className="flex items-center justify-center bg-light text-dark p-2.5 px-6 rounded-lg 
+              text-lg font-semibold hover:bg-dark hover:text-light border border-solid 
+              border-2 border-dark border-2"
+              >
+                Research Work
+              </Link>
+              </div>
+              <div className="">
+                
+              <Link
+                href="mailto:asaswale@wpi.edu"
+                className="flex items-center justify-center bg-light text-dark p-2.5 px-6 rounded-lg 
+              text-lg font-semibold hover:bg-dark hover:text-light border border-solid 
+              border-2 border-dark border-2"
+              >
+                Contact Me
+              </Link>
+              </div>
+            </div>
+        </Layout>
       </main>
     </>
   );
