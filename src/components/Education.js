@@ -38,7 +38,7 @@ const Education = () => {
       <h1 className=" justify-center text-center overflow-hidden text-6xl font-bold capitalize">Education</h1>
       <div ref={ref} className='w-[75%] mx-auto relative my-8'>
         <motion.div
-        style={{scaleY:scrollYProgress}}
+        // style={{scaleY:scrollYProgress}}
         className='absolute left-9 top-2 w-[4px] h-[95%] bg-dark origin-top'>
         </motion.div>
         <ul className='w-full flex flex-col ml-4 '>
