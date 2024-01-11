@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import scenario_gif from "../assets/gifs/NameScreen.gif";
+import scenario_gif from "../assets/gifs/NameScreen_low.gif";
 import profile_pic from "../assets/images/ProfilePic.jpg";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
