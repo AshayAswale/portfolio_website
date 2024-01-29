@@ -18,9 +18,12 @@ const Details = ({position, time, dept, work}) => {
         {position}
       </h3>
       <span className='capitalize font-medium text-dark/75 '>
-        {time} | {dept}
+        <p>
+        {time}
+        </p>
+        {dept}
       </span>
-      <p className='font-medium w-full'>
+      <p className='font-medium w-full '>
         {work}
       </p>
     </div>
@@ -47,50 +50,50 @@ const Experience = () => {
         
         <ul className='w-full flex flex-col ml-4'>
           <Details position={"Research Assistant"} 
-          time={"Jan 2023-Current"} dept={"Robotics Department"}
+          time={"Aug 2021-Apr 2022 | Jan 2023-Current"} dept={"Robotics Department"}
           work={"Research assistant in the NEST lab working on the multi robot task allocation and scheduling"}
           />
         </ul>
         <ul className='w-full flex flex-col ml-4'>
-          <Details position={"Teaching Assistant"}
-          time={"Aug 2022-Dec2022"} dept={"Robotics Department"}
-          work={"Teaching assistant for the course Unified Robotics III and IV"}
-          />
-        </ul>
-        <ul className='w-full flex flex-col ml-4'>
-          <Details position={"Laboratory Assistant"}
-          time={"May 2022-Aug 2022"} dept={"Robotics Department"}
-          work={"Laboratory assistant for the robotics labs in WPI."}
-          />
-        </ul>
-        <ul className='w-full flex flex-col ml-4'>
-          <Details position={"Research Assistant"} 
-          time={"Aug 2021-Apr 2022"} dept={"Robotics Department"}
-          work={"Research assistant in the NEST lab for the academic year 2021"}
-          />
-        </ul>
-        <ul className='w-full flex flex-col ml-4'>
           <Details position={"Team Manager"}
-          time={"Jan 2020-Jul 2021"} dept={"Robotics Department"}
+          time={"Jan 2020-Jul 2020 | Jan 2021-Jul 2021"} dept={"Robotics Department"}
           work={"Team Manager for Team Capricorn, WPI's entry for the competition 'NASA Space Robotics Challenge Phase II'. The team had qualified for the final round of the competition."}
           />
         </ul>
         <ul className='w-full flex flex-col ml-4'>
           <Details position={"Teaching Assistant"}
-          time={"Aug 2020-Dec2020"} dept={"Robotics Department"}
-          work={"Teaching assistant for the course Computer Vision"}
+          time={"Aug 2019-Oct 2019 | Aug 2020-Dec2020 | Aug 2022-Dec2022"} dept={"Robotics Department"}
+          work={"Teaching assistant for the courses Computer Vision, Robotics Foundations, Unified Robotics III,  and IV"}
           />
         </ul>
-        <ul className='w-full flex flex-col ml-4'>
+        {/* <ul className='w-full flex flex-col ml-4'>
+          <Details position={"Laboratory Assistant"}
+          time={"May 2022-Aug 2022"} dept={"Robotics Department"}
+          work={"Laboratory assistant for the robotics labs in WPI."}
+          />
+        </ul> */}
+        {/* <ul className='w-full flex flex-col ml-4'>
+          <Details position={"Research Assistant"} 
+          time={"Aug 2021-Apr 2022"} dept={"Robotics Department"}
+          work={"Research assistant in the NEST lab for the academic year 2021"}
+          />
+        </ul> */}
+        {/* <ul className='w-full flex flex-col ml-4'>
+          <Details position={"Teaching Assistant"}
+          time={"Aug 2019-Oct 2019 | Aug 2020-Dec2020"} dept={"Robotics Department"}
+          work={"Teaching assistant for the course Computer Vision"}
+          />
+        </ul> */}
+        {/* <ul className='w-full flex flex-col ml-4'>
           <Details position={"Teaching Assistant"}
           time={"Aug 2019-Oct 2019"} dept={"Robotics Department"}
           work={"Teaching assistant for the course Computer Vision"}
           />
-        </ul>
+        </ul> */}
         <ul className='w-full flex flex-col ml-4'>
           <Details position={"Laboratory Assistant"}
-          time={"Sep 2018-Apr 2019"} dept={"Robotics Department"}
-          work={"Lab assistant for the Music, Perception, and Robotics Lab, WPI. Entrusted with electronic boards maintenance and repair. Design and manufacture various parts or test rigs needed for lab projects. Responsible to manage the inventory of the lab"}
+          time={"Sep 2018-Apr 2019 | May 2022-Aug 2022"} dept={"Robotics Department"}
+          work={"Lab assistant for the Robotics Labs. Responsible for improving the software structure and  entrusted with robots' maintenance and repair. Design and manufacture various parts or test rigs needed for lab projects. Responsible to manage the inventory of the lab"}
           />
         </ul>
         <Company company={"ORACLE FINANCIAL SERVICES SOFTWARE LIMITED (OFSS)"} companyLink={"https://www.oracle.com/financial-services/"}/>
